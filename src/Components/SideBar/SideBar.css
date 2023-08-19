@@ -1,0 +1,79 @@
+/* .nav-pills li a:hover {
+    background-color: blue;
+} */
+nav{
+    
+    background:	#2c586e;
+    display:flex;
+    flex-direction: row;
+}
+nav h2{
+    color: #fff;
+}
+nav i{
+    font-size: 25px;
+    margin-left: 50px;
+    color: #fff;
+    margin: 0px 0px 0px 15px;
+}
+
+.container1{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 0px;
+  
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.Sidebar{
+    background: #2c586e;
+    color: #fff;
+    height: 100vh;
+    width: 300px;
+    transition: all 0.5s;
+    margin-left:0px;
+
+  
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.link:hover{
+    background: lightskyblue;
+    color: #000;
+}
+.active{
+    background: lightskyblue;
+    columns: #000;
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.icon{
+    font-size: 15px;
+}
+.link_text{
+    
+    font-size: 15px;
+    text-decoration: none;
+}
